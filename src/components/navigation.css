@@ -1,0 +1,21 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 2.5rem 0;
+
+	& .right-options {
+		display: flex;
+		align-items: center;
+
+		& .font-switcher__container {
+			padding-right: 1rem;
+			border-right: 1px solid #ccc;
+		}
+
+		& .theme-toggle {
+			padding-left: 1rem;
+			padding-right: 1rem;
+			cursor: pointer;
+		}
+	}
+}

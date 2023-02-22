@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.bunny.net" />
+		<link
+			href="https://fonts.bunny.net/css?family=inter:400,500,600"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/public/style.css" />
+		<title>Dictionary App</title>
+	</head>
+	<body>
+		<main>
+			<nav>
+				<div class="logo">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="44"
+						height="44"
+						viewBox="0 0 24 24"
+						fill="#a057d7"
+					>
+						<path
+							d="M19 2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3h15v-2H6.012C5.55 19.988 5 19.806 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2zm0 14H5V5c0-.806.55-.988 1-1h13v12z"
+						></path>
+					</svg>
+				</div>
+
+				<div class="right-options">
+					<div class="font-switcher__container">
+						<select data-font-switcher>
+							<option value="sans-serif">Sans Serif</option>
+							<option value="serif">Serif</option>
+						</select>
+					</div>
+
+					<div class="theme-toggle">Toggle</div>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						width="20"
+						height="20"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+						/>
+					</svg>
+				</div>
+			</nav>
+
+			<div class="search__container">
+				<input class="search" type="text" placeholder="Search for a word" />
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="2"
+					stroke="#a057d7"
+					width="24"
+					height="24"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+					/>
+				</svg>
+			</div>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+</html>

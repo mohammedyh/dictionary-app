@@ -1,0 +1,23 @@
+.search__container {
+	border-radius: 12px;
+	padding: 1rem 1.2rem;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.search__container:focus-within {
+	outline: 2px solid #a057d7;
+}
+
+.search {
+	border: none;
+	width: 100%;
+	background-color: #f4f4f4;
+	font-weight: bold;
+}
+
+.search:focus {
+	outline: none;
+}
