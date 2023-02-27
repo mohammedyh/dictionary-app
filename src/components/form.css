@@ -1,19 +1,24 @@
+form,
+.search__container,
+.search {
+	width: 100%;
+}
+
 .search__container {
 	border-radius: 12px;
 	padding: 1rem 1.2rem;
 	display: flex;
 	align-items: center;
-	width: 100%;
 	background-color: #f4f4f4;
+	transition: box-shadow 150ms ease-in-out;
 }
 
 .search__container:focus-within {
-	outline: 2px solid #a057d7;
+	box-shadow: 0 0 0px 2px #a057d7;
 }
 
 .search {
 	border: none;
-	width: 100%;
 	background-color: #f4f4f4;
 	font-weight: bold;
 }

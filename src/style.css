@@ -4,4 +4,6 @@
 @import 'layouts/layout';
 
 @import 'components/navigation';
-@import 'components/input';
+@import 'components/form';
+@import 'components/button';
+@import 'components/definition';
