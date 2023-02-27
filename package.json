@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postcss:watch": "postcss src/style.css --dir public --watch"
+    "postcss:watch": "postcss src/style.css --dir public --watch",
+    "js:watch": "watchify src/js/main.js -o public/bundle.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,10 @@
     "postcss-import": "^15.1.0",
     "postcss-preset-env": "^8.0.1",
     "postcss-sorting": "^8.0.1"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "toastify-js": "^1.12.0",
+    "watchify": "^4.0.0"
   }
 }
