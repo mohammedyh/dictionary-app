@@ -1,7 +1,19 @@
-body {
-	font-family: 'Manrope', sans-serif;
+html {
+	transition: filter 200ms ease-in-out;
+}
 
-	&.serif {
-		font-family: 'Lora', serif;
+.dark {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+body {
+	font-family: 'Lora', serif;
+
+	&.sans-serif {
+		font-family: 'Manrope', sans-serif;
 	}
+}
+
+.hidden {
+	display: none;
 }
