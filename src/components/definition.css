@@ -1,4 +1,8 @@
 .definition__container {
+	padding-bottom: 3rem;
+}
+
+.definition__wrapper {
 	margin-top: 2rem;
 }
 
@@ -35,6 +39,45 @@
 	background: #d7d3d3;
 }
 
-.definition__info p {
+.definition__meaning-heading {
 	color: #6c6c6c;
+}
+
+.definition__synonyms {
+	color: rgba(164, 69, 237, 1);
+}
+
+.synonyms__container {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+
+	& h3 {
+		margin-right: 1rem;
+	}
+}
+
+.synonym__btn {
+	border: none;
+	background: none;
+	background-position: -100px 100%;
+	color: rgba(164, 69, 237, 1);
+	cursor: pointer;
+	transition: 200ms;
+}
+
+.synonym__btn:not(:last-child) {
+	margin-right: 0.75rem;
+}
+
+.synonym__btn:hover {
+	background: linear-gradient(to left, #a544e8, #a445ed);
+	background-size: 100% 2px;
+	background-position: 0px 100%;
+	background-repeat: no-repeat;
+}
+
+.synonym-btns__container {
+	display: flex;
+	flex-wrap: wrap;
 }

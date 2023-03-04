@@ -17,3 +17,11 @@ body {
 .hidden {
 	display: none;
 }
+
+li::marker {
+	color: #a544e8;
+}
+
+li:not(:last-child) {
+	margin-bottom: 0.75rem;
+}
