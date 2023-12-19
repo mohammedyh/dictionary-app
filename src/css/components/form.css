@@ -9,7 +9,7 @@ form,
 	padding: 1rem 1.2rem;
 	display: flex;
 	align-items: center;
-	background-color: #f4f4f4;
+	background-color: #e1e1e1;
 	transition: box-shadow 150ms ease-in-out;
 }
 
@@ -19,7 +19,7 @@ form,
 
 .search {
 	border: none;
-	background-color: #f4f4f4;
+	background-color: #e1e1e1;
 	font-weight: bold;
 }
 
