@@ -486,7 +486,7 @@ form.addEventListener('submit', async function (event) {
 	}
 
 	const response = await fetch(
-		`https://api.dictionaryapi.dev/api/v2/entries/en/${searchValue}`
+		`https://api.dictionaryapi.dev/api/v2/entries/en/${searchValue}`,
 	);
 	const data = await response.json();
 
@@ -533,7 +533,7 @@ form.addEventListener('submit', async function (event) {
 				<div class="definition__header">
 					<div>
 						<h1 class="definition">${definitionData.word}</h1>
-						<h2 class="definition__phonetic">${definitionData.phonetic}</h2>
+						<h2 class="definition__phonetic">${definitionData.phonetic ?? ''}</h2>
 					</div>
 
 					<div>
